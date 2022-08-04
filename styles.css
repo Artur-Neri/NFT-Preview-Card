@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit';
+  color: hsl(215, 51%, 70%);
+}
+
+main {
+  width: 350px;
+  height: 595px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 16px;
+  display: flex;
+  box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: 23px;
+}
+
+.view{
+  position: relative;
+}
+
+.view-icon{
+  transition: opacity 1s;
+  position: absolute;
+  top: 126px;
+  left: 126px;
+}
+
+.view-icon-box{
+  position: absolute;
+  opacity: 0;
+  border-radius: 8px;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  background-color: hsl(178, 100%, 50%, 20%);
+  transition: opacity 500ms;
+  cursor: pointer;
+}
+
+.view-icon-box:hover{
+  opacity: 1;
+}
+
+
+.equi-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.view-icon{transition-timing-function: ease;}
+
+
+.view-icon:hover{
+  opacity: 1;
+}
+
+
+.title{
+  font-size: 20px;
+  margin-top: 22px;
+  margin-bottom: 18px;
+  color: white;
+  font-weight: 700;
+}
+
+.title a{
+  color: white;
+  text-decoration: none;
+}
+
+.title a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.slogan {
+  margin-bottom: 18px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.deal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 22px;
+  
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#creator{
+  text-decoration: none;
+  color: white;
+}
+
+#creator:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  display: block;
+  width: 33px;
+  height: 33px;
+  margin-right: 16px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#eth-icon {
+  margin-right: 7px;
+}
+
+#clock-icon{
+  margin-right: 7px;
+  width: 16px;
+  height: 16px;
+}
+
+.ethereum-value{
+  display: flex;
+  align-items: center;
+}
+
+.eth-price {
+  color: hsl(178, 100%, 50%);
+  
+  font-weight: 700;
+}
+
